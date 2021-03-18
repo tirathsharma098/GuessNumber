@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Guess Number</string>
+    <string name="aboutApp"> \> When You click on Start Button Your Computer or Mobile will think a number in his Mind.
+    \n\n \> Remember the number is going to be same until \"You Loose appears on the screen.\"
+    \n\n \> At first You have to guess an Number taken by Computer. From ZERO to HUNDRED.
+    \n\n \> Then Enter your guessed number. If your number is correct \"You Won\" Appears.
+    \n\n \> Else You will get hint from Computer.
+    \n\n \> Remember you got only 5 Chances to find out correct Number chosen by computer.
+    \n\n \> Every Time you got different Hint. \( Note: Computer Never Lies. This is enough to won this game.\).
+    \n\n \> Each Hint is going to be absolutely true.
+     \n\n \> Enjoy Guess Number Game. Thanks. D:\)
+    </string>
+</resources>

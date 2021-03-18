@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainGame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary_variant"
+    android:backgroundTint="?android:attr/colorBackgroundCacheHint"
+    android:textAlignment="center"
+    tools:context=".MainGame">
+
+    <TextView
+        android:id="@+id/message_View"
+        android:layout_width="358dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:text="This is text"
+        android:textAlignment="center"
+        android:textColor="#C6E61818"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center_horizontal"
+        android:text=" Submit\nNumber"
+        android:textAlignment="gravity"
+        android:textColor="#FF6F00"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/take_Input" />
+
+    <EditText
+        android:id="@+id/take_Input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter Number"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message_View" />
+
+    <Button
+        android:id="@+id/playAgain_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:gravity="center_horizontal"
+        android:text="Play Again"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/mainMenu_Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mainMenu_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:gravity="center_horizontal"
+        android:text="Main Menu"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
